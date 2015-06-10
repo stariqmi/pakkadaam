@@ -14,7 +14,8 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "routes": "~2.0.0",
-    "redis": "~0.12.1",
-    "randomstring": "~1.0.6"
+    "randomstring": "~1.0.6",
+    "request": "~2.57.0",
+    "q": "~1.4.1"
   }
 }

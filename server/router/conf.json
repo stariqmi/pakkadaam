@@ -1,0 +1,4 @@
+{
+	"couch_host": "http://localhost",
+	"couch_port": "5985"
+}

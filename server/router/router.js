@@ -1,6 +1,5 @@
 // npm modules
 var routes = require('routes');
-var redis = require('redis');
 
 module.exports = Router;
 
@@ -8,7 +7,6 @@ function Router(opts) {
 	var self = this;
 
 	self.router = routes();
-	self.redis 	= redis.createClient();
 }
 
 Router.prototype.add = function(route, handler) {
