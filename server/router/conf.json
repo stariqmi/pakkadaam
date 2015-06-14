@@ -1,4 +1,5 @@
 {
 	"couch_host": "http://localhost",
-	"couch_port": "5985"
+	"couch_port": "5985",
+	"couch_hosting": "http://198.199.105.130:5984"
 }

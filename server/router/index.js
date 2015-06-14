@@ -7,7 +7,7 @@ var router = new Router();
 
 // Routes
 
-// Signup
-router.add('POST//signup/:email/:password', handlers.signup);
+/* SIGN UP */ router.add('POST//signup/:email/:password', handlers.signup);
+/* SIGN IN */ router.add('PUT//signin/:username/:password', handlers.signin);
 
 module.exports = router;
